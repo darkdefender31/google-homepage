@@ -1,0 +1,36 @@
+html body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif
+}
+
+#nav-bar{
+    height: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-1{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-2{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.nav-link a:hover{
+    border-bottom: 1px rgba(0, 0, 0, 0.75) solid;
+}

@@ -1,4 +1,4 @@
-html body{
+*, *::before, *::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,16 +13,18 @@ html body{
 
 #nav-1{
     display: flex;
-    width: 150px;
+    width: 6.25rem;
     justify-content: space-around;
     align-items: center;
+    margin-left: 1.5rem;
 }
 
 #nav-2{
     display: flex;
-    width: 300px;
+    width: 18.75rem;
     justify-content: space-around;
     align-items: center;
+    margin-right: 1.5rem;
 }
 
 .nav-link{
@@ -31,6 +33,45 @@ html body{
     color: rgba(0, 0, 0, 0.75);
 }
 
+#grid-image{
+    height: 1.675rem;
+    filter: opacity(50%);
+}
+
+#signin-btn{
+    background-color: #4285f4;
+    color: #fff;
+    padding: 0.65rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.125rem;
+}
+
 .nav-link a:hover{
     border-bottom: 1px rgba(0, 0, 0, 0.75) solid;
+}
+
+#search-logo-entry{
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#company-logo{
+    padding-top: 6.875rem;
+}
+
+#search-bar{
+    margin-top: 1.875rem;
+    width: 36.25rem;
+    height: 3rem;
+    border: 1px #dfe1e5 solid;
+    border-radius: 1.5rem;
+    display: flex;
+}
+
+#search-entry{
+    border: none;
 }

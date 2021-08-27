@@ -2,7 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: arial,sans-serif
+    font-family: arial,sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #nav-bar{
@@ -27,7 +37,7 @@
     margin-right: 1.5rem;
 }
 
-.nav-link{
+.nav-footer-link{
     text-decoration: none;
     list-style-type: none;
     color: rgba(0, 0, 0, 0.75);
@@ -48,12 +58,13 @@
     border-radius: 0.125rem;
 }
 
-.nav-link a:hover{
+.nav-footer-link a:hover{
     border-bottom: 1px rgba(0, 0, 0, 0.75) solid;
 }
 
 #search-logo-entry{
-    height: 31.25rem;
+    margin-top: 5rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +81,70 @@
     border: 1px #dfe1e5 solid;
     border-radius: 1.5rem;
     display: flex;
+    align-items: center;
 }
 
 #search-entry{
     border: none;
+    width: 80%;
+    height: 2rem;
+    outline: none;
+}
+
+.search-icon{
+    width: 10%;
+    height: 1.5rem;
+    filter: opacity(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-svg{
+    height: 60%;
+}
+
+#search-btns-section{
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#search-btns-container{
+    display: flex;
+    width: 17rem;
+    justify-content: space-between;
+}
+
+.search-btns{
+    padding: 0.65rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 300;
+}
+
+footer{
+    margin-top: auto;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f5f8ff;
+    border-top: #dfe1e5 1px solid;
+}
+
+#footer-1{
+    display: flex;
+    width: 22rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+#footer-2{
+    display: flex;
+    width: 16.75rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1.5rem;
 }

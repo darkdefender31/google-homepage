@@ -10,14 +10,13 @@
 <body>
     <nav id="nav-bar">
         <div id="nav-1">
-            <li class="nav-link"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-link"><a class="nav-link" href="#">Store</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">About</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Store</a></li>
         </div>
         <div id="nav-2">
-            <li class="nav-link"><a class="nav-link" href="#">Gmail</a></li>
-            <li class="nav-link"><a class="nav-link" href="#">Images</a></li>
-            <!-- th SVG from font awesome https://fontawesome.com/v5.15/icons/th -->
-            <img id="grid-image" src="images/th-solid.svg" alt="3x3 grid dot layout">
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Gmail</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link"href="#">Images</a></li>
+            <img id="grid-image" src="images/menu.svg" alt="3x3 grid dot layout">
             <button id="signin-btn">Sign in</button>
         </div>
     </nav>
@@ -25,12 +24,29 @@
         <div id="search-logo-entry">
         <img id="company-logo" src="images/googlelogo.png" alt="Google Company Logo">
         <div id="search-bar">
+            <a class="search-icon" href="#"><img class="search-svg"src="images/loupe.svg" alt="magnifying glass search icon"></a>
             <input id="search-entry" type="text">
+            <a class="search-icon" href="#"><img class="search-svg" src="images/microphone1.svg" alt="microphone voice command icon"></a>
+        </div>
+    </div>
+    <div id="search-btns-section">
+        <div id="search-btns-container">
+            <button class="search-btns">Google Search</button>
+            <button class="search-btns">I'm Feeling Lucky</button>
         </div>
     </div>
     </main>
     <footer>
-
+        <div id="footer-1">
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Advertising</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Business</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">How Search works</a></li>
+        </div>
+        <div id="footer-2">
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Privacy</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Terms</a></li>
+            <li class="nav-footer-link"><a class="nav-footer-link" href="#">Savings</a></li>
+        </div>
     </footer>
 </body>
 </html>

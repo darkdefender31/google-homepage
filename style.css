@@ -152,3 +152,106 @@ footer{
 #svg-ref{
     color: rgba(0, 0, 0, 0.75);
 }
+
+@media(max-width: 1024px){
+    footer{
+        font-size: 0.5rem;
+    }
+
+    #footer-1{
+        width: 50%;
+    }
+
+    #footer-2{
+        width: 30%;
+    }
+}
+
+@media(max-width: 540px){
+
+    #nav-bar{
+        height: 1.5rem;
+        font-size: 0.25rem;
+    }
+
+    #nav-1{
+        width: 20%;
+    }
+
+    #nav-2{
+        width: 30%;
+    }
+
+    #grid-image{
+        height: 50%;
+    }
+
+    #signin-btn{
+        padding: 0.15rem 0.5rem;
+        font-weight: bold;
+        font-size: 0.25rem;
+    }
+
+    #company-logo{
+        width: 50%;
+    }
+
+
+    #search-logo-entry{
+        height: 17.5rem;
+    }
+
+    #search-bar{
+        width: 75%;
+        height: 2.2rem;
+    }
+
+    #search-btns-section{
+        height: 1rem;
+        font-size: 0.25rem;
+    }
+
+    #search-btns-container{
+        width: 35%;
+        justify-content: space-around;
+    }
+
+    .search-btns{
+        padding: 0.25rem 0.75rem;
+        font-size: 0.5rem;
+    }
+
+    footer{
+        height: 1.5rem;
+        font-size: 0.25rem;
+    }
+
+    #footer-1{
+        width: 50%;
+    }
+
+    #footer-2{
+        width: 30%;
+    }
+}
+
+@media(max-width: 414px){
+    #search-logo-entry{
+        height: 16rem;
+    }
+
+    .search-btns{
+        padding: 0.15rem 0.5rem;
+        font-size: 0.35rem;
+    }
+}
+
+@media(max-width: 320px){
+    #search-logo-entry{
+        height: 15rem;
+    }
+
+    #search-btns-container{
+        width: 45%;
+    }
+}
